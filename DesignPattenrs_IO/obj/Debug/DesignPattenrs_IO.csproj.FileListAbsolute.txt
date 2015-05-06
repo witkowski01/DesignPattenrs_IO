@@ -1,0 +1,6 @@
+C:\Users\witko_000\Documents\GitHub\DesignPattenrs_IO\DesignPattenrs_IO\bin\Debug\DesignPattenrs_IO.exe.config
+C:\Users\witko_000\Documents\GitHub\DesignPattenrs_IO\DesignPattenrs_IO\bin\Debug\DesignPattenrs_IO.exe
+C:\Users\witko_000\Documents\GitHub\DesignPattenrs_IO\DesignPattenrs_IO\bin\Debug\DesignPattenrs_IO.pdb
+C:\Users\witko_000\Documents\GitHub\DesignPattenrs_IO\DesignPattenrs_IO\obj\Debug\DesignPattenrs_IO.csprojResolveAssemblyReference.cache
+C:\Users\witko_000\Documents\GitHub\DesignPattenrs_IO\DesignPattenrs_IO\obj\Debug\DesignPattenrs_IO.exe
+C:\Users\witko_000\Documents\GitHub\DesignPattenrs_IO\DesignPattenrs_IO\obj\Debug\DesignPattenrs_IO.pdb
