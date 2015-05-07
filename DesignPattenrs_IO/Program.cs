@@ -22,7 +22,7 @@ namespace DesignPattenrs_IO
             IFactoryMethod ingrediens4 = FactoryMethod.CookScrambledEggs(IngiedientEnum.Salt);
             ingrediens4.Ingredient();
 
-            //Builder
+            //Builder and repository(abstract class instead of interface )
             Client mClient = new Client();
             mClient.CreateProduct();
 
@@ -37,6 +37,14 @@ namespace DesignPattenrs_IO
             concreteItem.ChangeItemNumber(2);
             concreteItem.DeAttach(cObserver2);
             concreteItem.ChangeItemNumber(5);
+
+
+            //Repository with interface
+
+            var repository = new RepositoryUse();
+            repository.Use();
+
+
 
             Console.ReadKey();
         }
