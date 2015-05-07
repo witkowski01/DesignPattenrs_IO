@@ -22,8 +22,23 @@ namespace DesignPattenrs_IO
             IFactoryMethod ingrediens4 = FactoryMethod.CookScrambledEggs(IngiedientEnum.Salt);
             ingrediens4.Ingredient();
 
+            //Builder
             Client mClient = new Client();
             mClient.CreateProduct();
+
+            //Observer
+            ConcreteItem concreteItem = new ConcreteItem();
+
+            ConcreateObserver cObserver1=new ConcreateObserver("Item 1");
+            ConcreateObserver cObserver2=new ConcreateObserver("Item 2");
+
+            concreteItem.Attach(cObserver1);
+            concreteItem.Attach(cObserver2);
+            concreteItem.ChangeItemNumber(2);
+            concreteItem.DeAttach(cObserver2);
+            concreteItem.ChangeItemNumber(5);
+
+            Console.ReadKey();
         }
     }
 }
